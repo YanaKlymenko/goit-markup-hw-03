@@ -157,8 +157,14 @@ body {
 }
 
 /* ----ADVANT---- */
-.advant-text {
-  color: var(--second-text-color);
+.advant-list {
+  display: flex;
+}
+.advant-item + .advant-item {
+  margin-left: 30px;
+}
+.advant-item {
+  flex-basis: calc((100% - 120px) / 4);
 }
 .advant-subtitle {
   font-weight: 700;
@@ -166,7 +172,12 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--fist-text-color);
+  margin-bottom: 10px;
 }
+.advant-text {
+  color: var(--second-text-color);
+}
+
 /* ----ABOUT---- */
 .title {
   font-weight: 700;
