@@ -73,6 +73,13 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
+}
+.header-wrap {
+  display: flex;
+}
+.nav {
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -96,6 +103,11 @@ body {
 }
 .nav-list {
   color: var(--fist-text-color);
+  display: flex;
+  align-items: center;
+}
+.nav-item + .nav-item {
+  margin-left: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -104,10 +116,16 @@ body {
   letter-spacing: 0.02em;
   color: currentColor;
 }
-.header-list,
-.advant-text {
+.header-list {
   color: var(--second-text-color);
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
+.header-item {
+  margin-left: 50px;
+}
+
 /* ----HERO---- */
 .hero {
   background: var(--backgraund-first-color);
@@ -122,6 +140,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-family: inherit;
@@ -135,6 +154,9 @@ body {
   border: none;
 }
 /* ----ADVANT---- */
+.advant-text {
+  color: var(--second-text-color);
+}
 .advant-subtitle {
   font-weight: 700;
   line-height: 1.14;
@@ -149,6 +171,7 @@ body {
   line-height: 1.17;
   text-align: center;
   color: var(--fist-text-color);
+  margin-bottom: 50px;
 }
 /* ----TEAM---- */
 .team {
