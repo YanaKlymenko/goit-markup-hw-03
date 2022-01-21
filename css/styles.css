@@ -160,7 +160,7 @@ body {
 .advant-list {
   display: flex;
 }
-.advant-item + .advant-item {
+.advant-item:not(:last-child) {
   margin-left: 30px;
 }
 .advant-item {
@@ -179,6 +179,9 @@ body {
 }
 
 /* ----ABOUT---- */
+.about-section {
+  padding-top: 0;
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -187,6 +190,17 @@ body {
   color: var(--fist-text-color);
   margin-bottom: 50px;
 }
+.about-title {
+  margin-bottom: 50px;
+}
+.about-list {
+  display: flex;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
 /* ----TEAM---- */
 .team {
   background-color: var(--background-second-color);
