@@ -74,7 +74,10 @@ body {
   border: 1px solid #ececec;
 }
 .header-wrap,
-.nav {
+.nav,
+.advant-list,
+.about-list,
+.team-list {
   display: flex;
 }
 .logo {
@@ -83,6 +86,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+}
+.nav-logo {
   margin-right: 93px;
 }
 .logo-header {
@@ -157,11 +162,10 @@ body {
 }
 
 /* ----ADVANT---- */
-.advant-list {
-  display: flex;
-}
-.advant-item:not(:last-child) {
-  margin-left: 30px;
+.advant-item:not(:last-child),
+.about-item:not(:last-child),
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 .advant-item {
   flex-basis: calc((100% - 120px) / 4);
@@ -190,37 +194,19 @@ body {
   color: var(--fist-text-color);
   margin-bottom: 50px;
 }
-.about-title {
-  margin-bottom: 50px;
-}
-.about-list {
-  display: flex;
-}
 .about-item {
   flex-basis: calc((100% - 90px) / 3);
-}
-.about-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 /* ----TEAM---- */
 .team {
   background-color: var(--background-second-color);
 }
-.team-title {
-  padding-bottom: 50px;
-}
-.team-list {
-  display: flex;
-}
 .team-item {
   flex-basis: calc((100% - 120px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.team-item:not(:last-child) {
-  margin-right: 30px;
 }
 .team-item-content {
   margin-top: 30px;
@@ -246,9 +232,9 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-.address {
-  margin-right: 93px;
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
 }
 .logo-footer,
 .footer-link {
@@ -258,6 +244,9 @@ body {
 .footer-link-contact {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 /* ----PORTFOLIO---- */
 .portfolio-list {
