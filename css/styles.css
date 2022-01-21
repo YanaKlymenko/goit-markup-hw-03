@@ -80,6 +80,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  margin-right: 93px;
 }
 .logo-header {
   color: var(--fist-text-color);
@@ -153,11 +154,16 @@ body {
 .team {
   background-color: var(--background-second-color);
 }
+.team-item-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .team-user {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--fist-text-color);
+  margin-bottom: 10px;
 }
 .team-desc {
   font-size: 16px;
@@ -167,6 +173,12 @@ body {
 /* ----FOOTER---- */
 .footer {
   background-color: var(--backgraund-first-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-right: 93px;
 }
 .logo-footer,
 .footer-link {
@@ -178,6 +190,9 @@ body {
   font-style: normal;
 }
 /* ----PORTFOLIO---- */
+.portfolio-list {
+  margin-bottom: 34px;
+}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -195,12 +210,17 @@ body {
   color: var(--white-color);
 }
 /* ----GALERRY---- */
+.gallery-item-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .gallery-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--fist-text-color);
+  margin-bottom: 4px;
 }
 .gallery-desc {
   font-size: 16px;
