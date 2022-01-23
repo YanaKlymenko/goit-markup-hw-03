@@ -71,7 +71,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header-wrap,
 .nav,
@@ -117,6 +117,8 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: currentColor;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-list {
   color: var(--second-text-color);
